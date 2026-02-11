@@ -15,7 +15,7 @@ EOT
     iothub_name         = string
     name                = string
     resource_group_name = string
-    is_verified         = optional(bool, false)
+    is_verified         = optional(bool) # Default: false
   }))
 }
 
